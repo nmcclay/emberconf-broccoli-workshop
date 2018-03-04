@@ -1,5 +1,13 @@
 # EmberConf 2018 Broccoli Workshop
 
+2 steps to get setup for the Broccoli.js workshop:
+
+Please ensure you have [yarn](https://yarnpkg.com/en/docs/install) installed.
+
+```bash
+yarn global add broccoli-cli
+```
+
 Clone this repo and run `yarn` before the workshop, or if you want the goods individually:
 
 ```bash
