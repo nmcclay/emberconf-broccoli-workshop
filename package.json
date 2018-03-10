@@ -7,27 +7,32 @@
     "clean": "rm -rf dist",
     "build": "npm run clean && broccoli build dist",
     "serve": "broccoli serve || 1",
-    "debug-build":
-      "npm run clean && node $NODE_DEBUG_OPTION $(which broccoli) build dist"
+    "debug-build": "npm run clean && node $NODE_DEBUG_OPTION $(which broccoli) build dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oligriffiths/emberconf-broccoli-workshop.git"
   },
-  "keywords": ["broccoli", "emberconf"],
+  "keywords": [
+    "broccoli",
+    "emberconf"
+  ],
   "author": "Oli Griffiths",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/oligriffiths/emberconf-broccoli-workshop/issues"
   },
-  "homepage":
-    "https://github.com/oligriffiths/emberconf-broccoli-workshop#readme",
+  "homepage": "https://github.com/oligriffiths/emberconf-broccoli-workshop#readme",
   "devDependencies": {
     "@glimmer/app-compiler": "^0.9.1",
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
     "broccoli": "^1.1.4",
     "broccoli-asset-rev": "^2.6.0",
     "broccoli-asset-rewrite": "^1.1.0",
     "broccoli-babel-transpiler": "^6.1.4",
+    "broccoli-clean-css": "^2.0.1",
     "broccoli-config-replace": "^1.1.2",
     "broccoli-env": "^0.0.1",
     "broccoli-funnel": "^2.0.1",
@@ -37,6 +42,10 @@
     "broccoli-sass-source-maps": "^2.2.0",
     "broccoli-stew": "^1.5.0",
     "broccoli-typescript-compiler": "^2.2.0",
-    "broccoli-uglify-sourcemap": "^2.0.2"
+    "broccoli-uglify-sourcemap": "^2.0.2",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.0.0",
+    "rollup-plugin-node-resolve": "^3.2.0",
+    "rollup-plugin-uglify": "^3.0.0"
   }
 }
