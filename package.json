@@ -43,6 +43,7 @@
     "broccoli-stew": "^1.5.0",
     "broccoli-typescript-compiler": "^2.2.0",
     "broccoli-uglify-sourcemap": "^2.0.2",
+    "node-sass": "^4.7.2",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^9.0.0",
     "rollup-plugin-node-resolve": "^3.2.0",
