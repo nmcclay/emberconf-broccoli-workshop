@@ -28,6 +28,7 @@ yarn add --dev broccoli \
     @glimmer/app-compiler
 ```
 
-It is also recommended that you install [VS Code](https://code.visualstudio.com/download)
+It is also recommended that you install [VS Code](https://code.visualstudio.com/download) as this repo has support for
+interactive debugging, but don't worry, it's not mandatory, feel free to use whatever editor you're comfortable with.
 
 That's it for now, looking forward to meeting everyone! 🐹 
