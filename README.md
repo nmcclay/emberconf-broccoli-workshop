@@ -11,20 +11,28 @@ yarn global add broccoli-cli
 Clone this repo and run `yarn` before the workshop, or if you want the goods individually:
 
 ```bash
-yarn add --dev broccoli \
-    broccoli-funnel \
-    broccoli-merge-trees \
-    broccoli-sass-source-maps \
-    broccoli-babel-transpiler \
-    broccoli-rollup \
-    broccoli-livereload \
-    broccoli-env \
-    broccoli-asset-rewrite \
+yarn add babel-core \
+    babel-plugin-external-helpers \
+    babel-preset-env \
+    broccoli \
     broccoli-asset-rev \
+    broccoli-asset-rewrite \
+    broccoli-babel-transpiler \
+    broccoli-clean-css \
+    broccoli-config-replace \
+    broccoli-env \
+    broccoli-funnel \
+    broccoli-livereload \
+    broccoli-merge-trees \
+    broccoli-rollup \
+    broccoli-sass-source-maps \
     broccoli-stew \
     broccoli-typescript-compiler \
     broccoli-uglify-sourcemap \
-    broccoli-config-replace \
+    rollup-plugin-babel \
+    rollup-plugin-commonjs \
+    rollup-plugin-node-resolve \
+    rollup-plugin-uglify \
     @glimmer/app-compiler
 ```
 
