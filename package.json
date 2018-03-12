@@ -36,7 +36,7 @@
     "broccoli-config-replace": "^1.1.2",
     "broccoli-env": "^0.0.1",
     "broccoli-funnel": "^2.0.1",
-    "broccoli-livereload": "^1.2.1",
+    "broccoli-livereload": "https://github.com/oligriffiths/broccoli-livereload.git#patch-1",
     "broccoli-merge-trees": "^3.0.0",
     "broccoli-rollup": "^2.0.0",
     "broccoli-sass-source-maps": "^2.2.0",
@@ -45,7 +45,7 @@
     "broccoli-uglify-sourcemap": "^2.0.2",
     "node-sass": "^4.7.2",
     "rollup-plugin-babel": "^3.0.3",
-    "rollup-plugin-commonjs": "^9.0.0",
+    "rollup-plugin-commonjs": "^8.4.1",
     "rollup-plugin-node-resolve": "^3.2.0",
     "rollup-plugin-uglify": "^3.0.0"
   }
