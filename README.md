@@ -33,8 +33,7 @@ yarn add --dev babel-core@^6.26.0 \
     rollup-plugin-babel@^3.0.3 \
     rollup-plugin-commonjs@^9.0.0 \
     rollup-plugin-node-resolve@^3.2.0 \
-    rollup-plugin-uglify@^3.0.0 \
-    @glimmer/app-compiler@^0.9.1
+    rollup-plugin-uglify@^3.0.0 
 ```
 
 It is also recommended that you install [VS Code](https://code.visualstudio.com/download) as this repo has support for
